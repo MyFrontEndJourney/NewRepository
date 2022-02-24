@@ -1,16 +1,26 @@
 body {
   background-color: grey;
   font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 ul {
-  display: inline;
   float: right;
-  
+  list-style: none;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color:bisque;
+
 }
 
+
+
 a {
+  font-family: "Bebas Neue";
+  font-size: 21px;
   text-decoration: none;
   color: aqua;
-  display: inline-block;
 }
