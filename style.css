@@ -36,19 +36,29 @@ nav {
   z-index: 1;
 }
 
-a {
+nav a {
   font-family: "Bebas Neue";
   font-size: 22px;
   text-decoration: none;
   color: #C06139;
   margin: 0 20px;
   letter-spacing: 3px;
-  transition: color 150ms linear;
+  transition: color 200ms linear;
 }
 
-a:hover {
+nav a:hover {
   color: #db4200;
-  text-shadow: 1px 1px 1px #000;
+}
+
+main a {
+  text-decoration: none;
+  color: #C06139;
+  transition: text-shadow 200ms linear, color 200ms linear;
+}
+
+main a:hover {
+  color: #db4200;
+  text-shadow: 2px 2px 1px #000;
 }
 
 main {
@@ -57,7 +67,7 @@ main {
   border-radius: 10px;
 }
 
-h1 {
+main h1 {
   font-family: "Major Mono Display";
   font-size: 50px;
   text-align: center;
@@ -76,11 +86,6 @@ h1 a {
   font-size: 50px;
   font-family: "Major Mono Display";
   
-}
-
-
-h1 a:hover {
-  color:#db4200
 }
 
 main h2 {
@@ -140,6 +145,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .container i {
