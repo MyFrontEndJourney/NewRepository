@@ -14,20 +14,27 @@ img {
 
 ul {
   list-style: none;
-  display: flex;
   margin-right: 50px;
+  justify-self: flex-end;
+}
+
+li {
+  display: inline;
 }
 
 nav {
-  background-color: rgb(43, 43, 43);
+  background-color: black;
   height: 120px;
+  width: 100%;
   display: flex;
   align-items: center;
+  opacity: 0.8;
+  position: fixed;
 }
 
 a {
   font-family: "Bebas Neue";
-  font-size: 21px;
+  font-size: 22px;
   text-decoration: none;
   color: #C06139;
   margin: 0 10px;
@@ -35,4 +42,10 @@ a {
 
 a:hover {
   text-shadow: black;
+}
+
+main {
+  background-image: url('Assets/city.png');
+  height: 1000px;
+  border-radius: 50px;
 }
