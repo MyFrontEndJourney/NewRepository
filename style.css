@@ -15,7 +15,6 @@ img {
 ul {
   list-style: none;
   margin-right: 50px;
-  justify-self: flex-end;
 }
 
 li {
@@ -28,6 +27,7 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   opacity: 0.8;
   position: fixed;
 }
@@ -37,11 +37,13 @@ a {
   font-size: 22px;
   text-decoration: none;
   color: #C06139;
-  margin: 0 10px;
+  margin: 0 20px;
+  letter-spacing: 3px;
+  transition: color 150ms linear;
 }
 
 a:hover {
-  text-shadow: black;
+  color: #db4200;
 }
 
 main {
