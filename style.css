@@ -22,7 +22,7 @@ nav {
   background-color: rgb(43, 43, 43);
   height: 120px;
   display: flex;
-
+  align-items: center;
 }
 
 a {
