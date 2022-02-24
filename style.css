@@ -48,6 +48,7 @@ a {
 
 a:hover {
   color: #db4200;
+  text-shadow: 1px 1px 1px #000;
 }
 
 main {
