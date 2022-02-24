@@ -3,3 +3,14 @@ body {
   font-family: "Montserrat";
 }
 
+ul {
+  display: inline;
+  float: right;
+  
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+  display: inline-block;
+}
