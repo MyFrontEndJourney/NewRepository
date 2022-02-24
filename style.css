@@ -50,7 +50,7 @@ nav a:hover {
   color: #db4200;
 }
 
-main a {
+main h1 a {
   text-decoration: none;
   color: #C06139;
   transition: text-shadow 200ms linear, color 200ms linear;
