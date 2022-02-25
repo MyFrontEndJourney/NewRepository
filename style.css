@@ -124,11 +124,15 @@ main h2 {
 #statement h2 {
   font-size: 40px;
   margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #statement h3 {
   font-size: 30px;
   margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #statement h3 a {
