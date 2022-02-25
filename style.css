@@ -131,6 +131,17 @@ main h2 {
   margin-bottom: 100px;
 }
 
+#statement h3 a {
+  color: #C06139;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 200ms linear;
+}
+
+#statement h3 a:hover {
+  color: #db4200;
+}
+
 hr {
   margin: 0 40%;
   border: 1px solid rgb(51, 51, 51);
