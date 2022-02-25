@@ -169,7 +169,16 @@ hr {
   font-weight: 600;
 }
 
-.triad {
+.skillstitle {
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline;
+  margin: 50px;
+  font-size: 35px;
+}
+
+#skills {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
