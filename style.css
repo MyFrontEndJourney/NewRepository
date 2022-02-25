@@ -50,6 +50,11 @@ nav a:hover {
   color: #db4200;
 }
 
+main h1 {
+  border: 3px solid white;
+  padding: 50px;
+}
+
 main h1 a {
   text-decoration: none;
   color: #C06139;
@@ -127,7 +132,7 @@ main h2 {
 }
 
 hr {
-  margin: 10px 800px;
+  margin: 0 40%;
   border: 1px solid rgb(51, 51, 51);
 }
 
@@ -135,6 +140,7 @@ hr {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -146,6 +152,8 @@ hr {
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .container i {
@@ -160,6 +168,7 @@ hr {
   font-weight: 100;
   font-size: 30px;
   text-decoration: underline;
+  margin: 0 20px;
 }
 
 .container p {
