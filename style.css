@@ -234,3 +234,142 @@ hr {
   font-size: 18px;
   margin: 30px;
 }
+
+#grid {
+  width: 100%;
+  height: 1300px;
+  display: inline-grid;
+  grid-template: repeat(10, 100px) / repeat(10, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o {
+  border-radius: 20px;
+  background-color: #C06139;
+}
+
+.a {
+  grid-area: 1 / 1 / span 3 / span 2;
+  background-color: #db4200;
+}
+
+.b {
+  grid-area: 2 / 3 / span 3 / span 2;
+}
+
+.c {
+  grid-area: 1 / 5 / span 3 / span 2;
+  background-color: #db4200;
+}
+
+.d {
+  grid-area: 2 / 7 / span 3 / span 2;
+}
+
+.e {
+  grid-area: 1 / 9 / span 3 / span 2;
+  background-color: #db4200;
+}
+
+.f {
+  grid-area: 4 / 1 / span 3 / span 2;
+}
+
+.g {
+  grid-area: 5 / 3 / span 3 / span 2;
+  background-color: #db4200;
+}
+
+.h {
+  grid-area: 4 / 5 / span 3 / span 2;
+}
+
+.i {
+  grid-area: 5 / 7 / span 3 / span 2;
+  background-color: #db4200;
+}
+
+.j {
+  grid-area: 4 / 9 / span 3 / span 2;
+}
+
+.k {
+  grid-area: 7 / 1 / span 3 / span 2;
+  background-color: #db4200;
+}
+
+.l {
+  grid-area: 8 / 3 / span 3 / span 2;
+}
+
+.m {
+  grid-area: 7 / 5 / span 3 / span 2;
+  background-color: #db4200;
+}
+
+.n {
+  grid-area: 8 / 7 / span 3 / span 2;
+}
+
+.o {
+  grid-area: 7 / 9 / span 3 / span 2;
+  background-color: #db4200;
+}
+
+.ring {
+  text-align: center;
+  margin: 200px;
+  font-size: 35px;
+}
+
+.ring h3 {
+  font-weight: 300;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.ballet {
+  font-family: "Ballet";
+}
+
+.Charm {
+  font-family: "Charm";
+}
+
+.Great-Vibes {
+  font-family: "Great Vibes";
+}
+
+.Italianno {
+  font-family: "Italianno";
+}
+
+.Mea-Culpa {
+  font-family: "Mea Culpa";
+}
+
+.Miss-Fajardose {
+  font-family: "Miss Fajardose";
+}
+
+.Pinyon-Script {
+  font-family: "Pinyon Script";
+}
+
+.Sacramento {
+  font-family: "Sacramento";
+}
+
+.Tangerine {
+  font-family: "Tangerine";
+}
+
+.The-Nautigal {
+  font-family: "The Nautigal";
+}
+
+.Waterfall {
+  font-family: "Waterfall";
+}
