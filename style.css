@@ -413,3 +413,7 @@ hr {
 .Stalemate {
   font-family: "Stalemate";
 }
+
+#yo {
+  display: none;
+}
