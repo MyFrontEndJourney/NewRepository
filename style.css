@@ -1,3 +1,8 @@
+:root {
+  --main-orange: #C06139;
+  --hover-orange: #db4200;
+}
+
 body {
   background-color: #FFF0E5;
   font-family: "Montserrat";
@@ -40,14 +45,14 @@ nav a {
   font-family: "Bebas Neue";
   font-size: 22px;
   text-decoration: none;
-  color: #C06139;
+  color: var(--main-orange);
   margin: 0 20px;
   letter-spacing: 3px;
   transition: color 200ms linear;
 }
 
 nav a:hover {
-  color: #db4200;
+  color: var(--hover-orange);
 }
 
 main h1 {
@@ -316,104 +321,4 @@ hr {
 .o {
   grid-area: 7 / 9 / span 3 / span 2;
   background-color: #db4200;
-}
-
-.ring {
-  text-align: center;
-  margin: 200px;
-  font-size: 35px;
-}
-
-.ring h3 {
-  font-weight: 300;
-  text-decoration: underline;
-  font-size: 30px;
-}
-
-.ballet {
-  font-family: "Ballet";
-}
-
-.Charm {
-  font-family: "Charm";
-}
-
-.Great-Vibes {
-  font-family: "Great Vibes";
-}
-
-.Italianno {
-  font-family: "Italianno";
-}
-
-.Mea-Culpa {
-  font-family: "Mea Culpa";
-}
-
-.Miss-Fajardose {
-  font-family: "Miss Fajardose";
-}
-
-.Pinyon-Script {
-  font-family: "Pinyon Script";
-}
-
-.Sacramento {
-  font-family: "Sacramento";
-}
-
-.Tangerine {
-  font-family: "Tangerine";
-}
-
-.The-Nautigal {
-  font-family: "The Nautigal";
-}
-
-.Waterfall {
-  font-family: "Waterfall";
-}
-
-.Corinthia {
-  font-family: "Corinthia";
-}
-
-.Ephesis {
-  font-family: "Ephesis";
-}
-
-.Fleur-De-Leah {
-  font-family: "Fleur De Leah";
-}
-
-.Gwendolyn {
-  font-family: "Gwendolyn";
-}
-
-.Imperial-Script {
-  font-family: "Imperial Script";
-}
-
-.Lovers-Quarrel {
-  font-family: "Lovers Quarrel";
-}
-
-.Luxurious-Script {
-  font-family: "Luxurious Script";
-}
-
-.MonteCarlo {
-  font-family: "MonteCarlo";
-}
-
-.Petemoss {
-  font-family: "Petemoss";
-}
-
-.Stalemate {
-  font-family: "Stalemate";
-}
-
-#yo {
-  display: none;
 }
